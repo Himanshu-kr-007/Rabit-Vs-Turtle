@@ -1,0 +1,100 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+img#d1{
+
+	width: 200px;
+	height: 200px;
+	color: white;
+	text-align: center;
+	position: absolute;
+	left: 0px;
+	top: 15%;
+}
+img#d2{
+	width: 200px;
+	height: 200px;
+	color: white;
+	background: antiquewhite ;
+	text-align: center;
+	position: absolute;
+	left: 0px;
+	top: 60%;
+	
+}
+
+div#box{
+	height: 99vh;
+	width: 99vw;
+	border: 1px solid red;
+	margin: 2px;
+	background-color: skyblue;
+}
+
+div .line1{
+	height: 1px;
+	width: 99vw;
+	border: 1px groove green;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	position: absolute;
+	top: 41%;
+}
+div .line2{
+	height: 50px;
+	width: 99vw;
+	border: 1px groove green;
+	background-color: green;
+	position: absolute;
+	top: 41%;
+}
+div .line2 p{
+	color: white;
+	text-align: center;
+	font-size: 25px;
+	position: absolute;
+	top: 15px;
+	left: 37%;
+}
+
+div .line3{
+	height: 1px;
+	width: 99vw;
+	border: 1px groove green;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	position: absolute;
+	top: 82%;
+}
+
+div .line4{
+	height: 115px;
+	width: 99vw;
+	border: 1px groove green;
+	background-color: green;
+	position: absolute;
+	top: 82%;
+}
+
+div .line4 p{
+	color: white;
+	text-align: center;
+	font-size: 25px;
+	position: absolute;
+	top: 45px;
+	left: 35%;
+}
+
+div .line5{
+	height: 100vh;
+	width: 1vw;
+	border: 1px groove green;
+	background-color: rgb(128, 0, 0);
+	position: absolute;
+	top: 1;
+	right: 1;
+}

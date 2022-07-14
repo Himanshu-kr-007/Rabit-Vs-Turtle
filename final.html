@@ -1,0 +1,64 @@
+<head>
+	<title>Rabbit vs Turtle</title>
+	<link rel="stylesheet" href="style.css">
+	<script>
+		x = 0; 
+		function box1(){
+			const d = document.getElementById("d1");
+			d.style.left = x;
+
+			if (x <= document.documentElement.clientWidth - 170 )
+			{
+				x++
+				x++		
+				x++
+				setTimeout(box1, 1);
+			}
+		}
+
+		y = 0;
+		function box2(){
+			const d = document.getElementById("d2");
+			d.style.left = y;
+			if (y <= document.documentElement.clientWidth - 210 )
+			{
+				y++
+				y++
+				y++
+				y++
+				y++
+				y++
+				y++
+				y++
+				y++
+				y++
+				y++
+				y++
+				setTimeout(lw, 5);
+
+			}
+			setTimeout(Turtalwin)
+		}
+		function Turtalwin() {
+			alert("Tutortise winner")
+		}
+
+	</script>
+</head>
+
+<body onload="box1()">
+<div class="box" id="box">
+
+	<img id = "d1"  src="/Rabbit.png" alt="">
+	<div class="line1"></div>
+	<div class="line2"><p> Rabbit Always Reach to End of Line </p></div>
+
+	<img id = "d2" onmousemove= "box2()" src="/turtle-removebg-preview.png" alt="">
+	<div class="line3"></div>
+	<div class="line4"> <p> Use Cursor To Move Turtle And Win the Race </p></div>
+	<div class="line5"></div>
+
+
+</div>
+
+</body>
